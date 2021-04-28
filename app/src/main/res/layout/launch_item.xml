@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:elevation="20dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#222239"
+                android:padding="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="30sp"
+                            android:layout_marginRight="10dp"
+                            android:maxLines="1"
+                            android:text="Launch site:"
+                            android:textColor="#FFC107" />
+
+                        <TextView
+                            android:textAlignment="viewEnd"
+                            android:id="@+id/site"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="35sp"
+                            android:maxLines="1"
+                            android:text="Site"
+                            android:textColor="#00BCD4" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="30sp"
+                            android:layout_marginRight="10dp"
+                            android:maxLines="1"
+                            android:text="ID:"
+                            android:textColor="#FFC107" />
+
+                        <TextView
+                            android:textAlignment="viewEnd"
+                            android:id="@+id/id"
+                            android:layout_width="match_parent"
+                            android:layout_height="35sp"
+                            android:textSize="30sp"
+                            android:maxLines="1"
+                            android:textColor="#00BCD4"
+                            android:text="0000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="30sp"
+                            android:layout_marginRight="10dp"
+                            android:maxLines="1"
+                            android:text="Mission:"
+                            android:textColor="#FFC107" />
+
+                        <TextView
+                            android:textAlignment="viewEnd"
+                            android:id="@+id/mission_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="35sp"
+                            android:textSize="30sp"
+                            android:maxLines="1"
+                            android:textColor="#00BCD4"
+                            android:text="0000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:id="@+id/image_view"
+                            android:src="@drawable/ic_stat_name"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:id="@+id/face"
+        android:title="Company"
+        android:icon="@drawable/ic_baseline_mood_24"/>
+
+    <item
+        android:id="@+id/fire"
+        android:title="Launches"
+        android:icon="@drawable/ic_baseline_local_fire_department_24"/>
+
+</menu>
