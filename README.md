@@ -1,2 +1,2 @@
 # spaceX
-This app fetches data from HerokuApp using graphQL.
+This app fetches data from HerokuApp using graphQL. Using fragments and a bottom navbar, this app displays various spaceX datasets.
